@@ -1,0 +1,12 @@
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    padding: auto;
+    margin: auto;
+};
+
+body{
+        font-family: "Benne", serif;
+        font-weight: 400;
+        font-style: normal;
+};
