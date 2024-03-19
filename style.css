@@ -1,19 +1,30 @@
 /* CSS Reset */
 *{
     box-sizing: border-box;
-    padding: auto;
     margin: auto;
-};
+    padding: auto;
+}
 
 body{
-    color: red;
+    color: black;
     font-family: "Benne", serif;
     font-weight: 400;
-    font-size: 1000px;
-    font-style: normal;
-};
+    margin: 10px 30px 10px;
+}
 
 h1{
     font-size: large;
     color: red;
-};
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 22px;
+}
+
+.description{
+    color: #2b6c6c;
+}
+
+.interests{
+    margin-top: 60px;
+    line-height: 22px;
+}
