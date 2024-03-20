@@ -7,17 +7,22 @@
 
 body{
     color: black;
-    font-family: "Benne", serif;
+    font-family: "Gelasio", serif;
+    font-weight: 400;
+    font-style: normal;
     font-weight: 400;
     margin: 5px 30px 5px;
+    background-color: blanchedalmond;
 }
 
 h1{
     font-size: large;
-    color: black;
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     text-align: center;
-    font-size: 35px;
-    margin-bottom: 22px;
+    font-size: 45px;
+    margin-bottom: 25px;
 }
 
 .description{
@@ -25,6 +30,7 @@ h1{
     margin-bottom: 60px;
 }
 
+/* Sections */
 .side{
     line-height: 22px;
 }
@@ -49,5 +55,5 @@ h1{
 }
 
 #coding{
-    
+
 }
