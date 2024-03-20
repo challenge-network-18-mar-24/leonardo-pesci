@@ -9,12 +9,12 @@ body{
     color: black;
     font-family: "Benne", serif;
     font-weight: 400;
-    margin: 10px 30px 10px;
+    margin: 5px 30px 5px;
 }
 
 h1{
     font-size: large;
-    color: white;
+    color: black;
     text-align: center;
     font-size: 35px;
     margin-bottom: 22px;
@@ -22,9 +22,32 @@ h1{
 
 .description{
     color: #2b6c6c;
+    margin-bottom: 60px;
 }
 
-.interests{
-    margin-top: 60px;
+.side{
     line-height: 22px;
+}
+
+.intestation{
+    font-size: 18px;
+}
+
+#interests{
+    float: left;
+}
+
+#moto-img{
+    width: 200px;
+}
+
+#languages{
+    width: 30%;
+    float: right;
+    background-color: pink;
+    padding: 4px 0;
+}
+
+#coding{
+    
 }
