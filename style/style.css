@@ -81,12 +81,13 @@ h1{
 
 /* Contacts */
 #contacts{
-    margin-top: 20px;
+    margin: 140px 550px 0;
+    display: flex;
 }
 
 .logo{
     width: 45px;
-    display: inline-block;
+    cursor: pointer;
 }
 
 .logo img{
