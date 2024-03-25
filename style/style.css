@@ -111,10 +111,6 @@ nav{
 }
 
 /* About me */
-#aboutMe{
-
-}
-
 #aboutMeBlock{
     display: flex;
     flex-wrap: nowrap;
