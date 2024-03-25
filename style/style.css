@@ -5,10 +5,15 @@
     padding: 0;
 }
 
+/* Variabili */
+:root{
+    --bg-color: #A288E3;
+}
+
 body{
     color: black;
-    background-color: #A288E3;
-    font-family: "Gelasio", serif;
+    background-color: var(--bg-color);
+    font-family: 'Gelasio', serif;
     font-weight: 400;
     font-style: normal;
     font-weight: 400;
@@ -34,7 +39,7 @@ body{
 
 h1{
     font-size: large;
-    font-family: "Averia Sans Libre", sans-serif;
+    font-family: 'Averia Sans Libre', sans-serif;
     font-weight: 600;
     font-style: normal;
     text-align: center;
@@ -105,9 +110,10 @@ nav{
     padding: 8px 16px;
 }
 
+/* About me */
 #interests{
-    width: 60%;
-    background-color: #cdffeb;
+    width: 40%;
+    background-color: blanchedalmond;
 }
 
 #moto-img{
@@ -116,7 +122,7 @@ nav{
 }
 
 #coding{
-    background-color: #fecdfa;
+    background-color: #E76F51;
 }
 
 #skills{
