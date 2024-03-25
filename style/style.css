@@ -96,7 +96,13 @@ nav{
 
 #work{
     background-color: #ebcdff;
-    margin-bottom: 20px;
+    margin: 20px;
+}
+
+.workExp{
+    background-color: #CCFFCB;
+    margin: 20px 0 10px;
+    padding: 8px 16px;
 }
 
 #interests{
