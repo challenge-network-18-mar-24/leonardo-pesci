@@ -30,11 +30,14 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: #CCFFCB;
+    z-index: 1;
+    border: 1px solid #5de45b;
 }
 
 .placeholder{
     width: 100%;
     height: 110px;
+    opacity: 0;
 }
 
 h1{
