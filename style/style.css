@@ -17,7 +17,6 @@
 
 body{
     color: var(--color-font);
-    background-image: url(./../img/background.jpg);
     font-family: 'Gelasio', serif;
     font-weight: 400;
     font-style: normal;
@@ -57,9 +56,10 @@ h1, h5, .navButton a{
     color: var(--color-title);
 }
 
-.navButton:hover{
-    color: white;
+.navButton:hover, .navButton a:hover{
+    color: var(--color-third);
     transform: scale(1.1);
+    transition-duration: 200ms;
 }
 
 /* Navigation */
@@ -80,10 +80,6 @@ nav{
     text-decoration: none;
 }
 
-.navButton a:hover{
-    transform: scale(1.2);
-}
-
 /* Main */
 .classCenter{
     width: 100%;
@@ -96,6 +92,13 @@ nav{
 
 #description{
     background-color: var(--color-main);
+}
+
+#hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./../img/background.jpg);
+    background-size: cover;
 }
 
 /* Sections */
@@ -118,8 +121,7 @@ nav{
     margin-bottom: 10px;
 }
 
-#work{
-    background-color: #ebcdff;
+#experiences{
     margin: 20px;
 }
 
