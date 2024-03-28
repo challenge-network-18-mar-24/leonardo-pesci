@@ -95,6 +95,7 @@ nav{
     align-content: center;
     padding: 0 55px 55px;
     margin: 0 55px;
+    border-radius: 10px;
 }
 
 #description{
@@ -197,13 +198,18 @@ nav{
 
 /* Contacts */
 #contacts{
-    margin-bottom: 50px;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 40px;
+    margin: 100px auto 50px;
+    background-color: var(--color-main);
+    gap: 15px;
 }
 
 #contactsBlock{
     display: flex;
     justify-content: center;
-    gap: 22px;
+    gap: 45px;
 }
 
 .logo{
@@ -236,6 +242,7 @@ nav{
     grid-template-columns: repeat(5, auto);
     margin: 20px 0;
     gap: 8px;
+    overflow: hidden;
 }
 
 .wrapper section .item {
@@ -307,4 +314,21 @@ nav{
 #hero > h1{
     color: var(--color-third)!important;
     border-radius: 10px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.modal-content{
+    margin-top: 30vh;
+    border-radius: 20px;
+}
+
+#testo-email{
+    height: 100px;
 }
