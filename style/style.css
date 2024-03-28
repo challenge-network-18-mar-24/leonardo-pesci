@@ -137,10 +137,6 @@ nav{
     margin-bottom: 10px;
 }
 
-#experiences{
-
-}
-
 .workExp{
     background-color: #a2d6a1;
     margin: 20px 0 10px;
@@ -243,6 +239,7 @@ nav{
     margin: 20px 0;
     gap: 8px;
     overflow: hidden;
+    scroll-margin-top: 120px;
 }
 
 .wrapper section .item {
