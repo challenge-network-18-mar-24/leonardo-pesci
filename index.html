@@ -20,9 +20,6 @@
     <body>
         <div class="">
             <div id="fix">
-                <header>
-                    
-                </header>
 
                 <nav>
                     <div class="navButton">
@@ -41,16 +38,18 @@
                 </nav>
             </div>
 
-            <div id="hero" class="px-4 py-5 my-5 text-center g-0 p-0 m-0">
-                <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1>
+            <div id="hero" class="px-4 py-5 my-5 text-center d-flex align-items-center justify-content-center">
+                <h1 class="display-5 fw-bold text-body-emphasis">Leonardo Pesci</h1>
                 <div class="col-lg-6 mx-auto">
-                  <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-                  </div>
+                    <p id="desc" class="lead mb-4">Sviluppatore web e di database relazionali con SQL</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Scarica CV</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contatta</button>
+                    </div>
                 </div>
-              </div>
+            </div>
+
+            <div id="hero-placeHolder"></div>
 
             <div class="classCenter">
 
@@ -84,7 +83,7 @@
                                     <li>Palestra</li>
                                     <li>Programmazione</li>
                                     <li>Moto</li>
-                                    <img src="./img/moto.png" id="moto-img" alt="la mia moto">
+                                    <div id="moto-img"></div>
                                 </ul>
                             </div>
 
@@ -103,8 +102,15 @@
                                 </div>
 
                                 <div id="other" class="card">
-                                    <h5 class="intestation">Altro</h5>
-                                    <span>Patente B</span>
+                                    <h5 class="intestation">Linguaggi</h5>
+                                    <ul type="none">
+                                        <li> <img src="./img/html.png" class="itIcon">HTML</li>
+                                        <li> <img src="./img/css.png" class="itIcon" alt="">CSS</li>
+                                        <li> <img src="./img/js.png" class="itIcon" alt="">JavaScript</li>
+                                        <li> <img src="./img/py.png" class="itIcon" alt="">Python</li>
+                                        <li> <img src="./img/R.png" class="itIcon" alt="">R</li>
+                                        <li> <img src="./img/mySQL.png" class="itIcon" alt="">SQL</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
